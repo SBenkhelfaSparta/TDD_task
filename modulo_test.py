@@ -11,3 +11,6 @@ class ModuloTest(unittest.TestCase):
 
     def test_positive(self):
         self.assertEqual(self.modu.positive(-21, 9), False)
+
+    def test_positive2(self):
+        self.assertEqual(self.modu.positive(21, 9), True)

@@ -21,10 +21,9 @@ We need to test if it is working first, so to do that I used an example input of
 self.assertEqual(self.modu.mod(10, 2), 0)
 ```
 
-I also created another test to check if the positive() method is working:
+I also created two other tests to check if the positive() method is working:
 
 ```python
 self.assertEqual(self.modu.positive(-21, 9), False)
+self.assertEqual(self.modu.positive(21, 9), True)
 ```
-
-Both tests should pass.
